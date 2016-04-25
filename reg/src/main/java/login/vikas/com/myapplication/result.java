@@ -9,7 +9,7 @@ public class result extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.result);
+        setContentView(R.layout.Result);
 
         TextView rName,rEmail,rMobile,rAdd,hiddenName;
         String name,email,add;

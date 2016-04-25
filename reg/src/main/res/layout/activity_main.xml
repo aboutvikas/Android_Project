@@ -9,7 +9,7 @@
     android:orientation="vertical"
     android:background="#fafbf6"
     tools:context="login.vikas.com.myapplication.MainActivity">
-
+ā
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
