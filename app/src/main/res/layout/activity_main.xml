@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:background="#E43F3F">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Next Smart Cleaner"
+        android:id="@+id/TV1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginBottom="15dp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:backgroundTint="#fff"
+        android:paddingBottom="20dp"
+        android:paddingLeft="15dp"
+        android:id="@+id/ET1"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="#fff"
+        android:backgroundTint="#fff"
+        android:textColor="#fff"
+        android:paddingBottom="20dp"
+        android:paddingLeft="15dp"
+        android:id="@+id/ET2"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:id="@+id/TV2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/Login"
+        android:background="#CC1D1D"
+        android:textColor="#fff"
+        android:textSize="22dp"/>
+</LinearLayout>
