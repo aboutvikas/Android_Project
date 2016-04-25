@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="reg_heading">Registration</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="pwd">Password</string>
+    <string name="mobile">Mobile No</string>
+    <string name="reg_btn">Register</string>
+    <string name="add">Address</string>
+    <string name="thanks">Thanks for Registraion,</string>
+    <string name="User_details">Your Details</string>
+</resources>

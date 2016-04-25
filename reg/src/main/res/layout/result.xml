@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="35dp"
+    android:background="#fafbf6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/thanks"
+        android:textSize="22dp"
+        android:id="@+id/thanks"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_toRightOf="@+id/thanks"
+        android:id="@+id/hiddenName"
+        android:textColor="#333"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/User_details"
+        android:layout_below="@id/thanks"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="30dp"
+        android:textColor="#111"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rName"
+        android:textSize="20dp"
+        android:layout_below="@+id/thanks"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rEmail"
+        android:textSize="20dp"
+        android:layout_below="@+id/thanks"
+        android:layout_marginTop="140dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rMobile"
+        android:textSize="20dp"
+        android:layout_below="@+id/thanks"
+        android:layout_marginTop="180dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rAdd"
+        android:textSize="20dp"
+        android:layout_below="@+id/thanks"
+        android:layout_marginTop="220dp"/>
+
+</RelativeLayout>
